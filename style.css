@@ -416,7 +416,7 @@ header {
 
   .blog {
     display      : flex;
-    margin-bottom: 4px;
+    margin-bottom: 16px;
 
   }
 }
