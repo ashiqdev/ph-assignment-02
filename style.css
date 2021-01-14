@@ -1,0 +1,453 @@
+header {
+  background    : #FFF9F4;
+  padding-bottom: 5rem;
+
+}
+
+.navbar-custom {
+  background: #FFF9F4 !important;
+}
+
+.logo {
+  height: 35px;
+}
+
+.image-container {
+  width: 520px;
+}
+
+.header-primary {
+  color: #FA804C;
+}
+
+.header-secondary {
+  color: #363958;
+}
+
+.header-para {
+  color: #3E3E3E;
+}
+
+.header-text {
+  width: 500px;
+}
+
+.flex-item__image {
+  order: 4;
+}
+
+.flex-item__text {
+  padding-top: 3rem;
+  order      : 3;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    height: 50px;
+  }
+
+  .flex-item__image {
+    order: 1
+  }
+
+  .flex-item__text {
+    order: 2
+  }
+}
+
+
+.slogan {
+  text-align: center;
+}
+
+.slogan span {
+  color: #FA804C;
+
+}
+
+.buy-now-button {
+  background-image: linear-gradient(to right, #2c3e50 0%, #3498db 51%, #2c3e50 100%)
+}
+
+.buy-now-button {
+  /* margin         : 10px; */
+  padding        : 18px 25px;
+  text-align     : center;
+  text-transform : uppercase;
+  font-weight    : bold;
+  transition     : 0.5s;
+  background-size: 200% auto;
+  color          : white;
+  box-shadow     : 0 0 20px #eee;
+  border-radius  : 10px;
+  display        : block;
+}
+
+.buy-now-button:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color              : #fff;
+  text-decoration    : none;
+}
+
+.buy-now-button:focus {
+  outline: none;
+}
+
+.news-button {
+  border-radius: 2px;
+}
+
+
+/* casual section */
+
+.casual-section,
+.feature-section {
+  padding-top: 6rem;
+}
+
+.casual-section h2 {
+  padding-bottom: 2rem;
+  font-weight   : bold;
+}
+
+.cardImage-container {
+  background     : #E5E5E5;
+  margin         : 20px auto;
+  width          : 80%;
+  height         : 300px;
+  border-radius  : 10px;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+}
+
+.cardImage-container img {
+  width: 200px;
+}
+
+.card {
+  /* height: 550px; */
+  border       : none;
+  border-radius: 10px !important;
+  box-shadow   : rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-text {
+  padding-bottom: 1rem;
+}
+
+.card:not(:last-child) {
+  margin-right: rem;
+}
+
+.card-price {
+  font-size  : 36px;
+  color      : #FA804C;
+  font-weight: bold;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+/* FORMAL SECTION */
+.formal-section {
+  padding-top: 6rem;
+}
+
+.formal-section h2 {
+  padding-bottom: 2rem;
+  font-weight   : bold;
+}
+
+
+
+/* FEATURE SECTION */
+.feature-image {
+  width  : 78px;
+  height : 82px;
+  padding: 0 0.2rem;
+  display: block;
+  margin : 0 auto;
+}
+
+.feature-items {
+  text-align: center;
+}
+
+.feature-section {
+  margin-bottom: 100px;
+}
+
+.feature-item {
+  box-shadow   : rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 15px;
+  padding-top  : 5rem;
+
+}
+
+.feature-para {
+  font-size  : 1rem;
+  line-height: 2;
+
+}
+
+.feature-details h4 {
+  font-weight: bold;
+}
+
+.feature-row {
+  flex-flow: column-reverse;
+}
+
+
+.news-wrapper {
+  color          : white;
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: center;
+  height         : 400px;
+  font-weight    : bolder;
+}
+
+.news-wrapper h4 {
+  font-size  : 3rem;
+  font-weight: bold;
+}
+
+.news-wrapper p {
+  text-align : center;
+  font-size  : 1.1rem;
+  font-weight: bolder;
+}
+
+/* NEWS SECTION */
+.news-section {
+
+  height: 400px;
+
+  background-image   : linear-gradient(to right bottom, rgba(9, 3, 76, 0.8), rgba(142, 17, 140, 0.4)), url(./assets/Photos/ash.png);
+  background-size    : cover;
+  background-origin  : center;
+  background-position: center;
+
+}
+
+
+
+
+/* FOOTER SECTION */
+
+.footer-section {
+  /* padding: 2rem; */
+  background: #26292e;
+}
+
+.footer-list-wrapper {
+  width     : 100%;
+  text-align: center !important;
+}
+
+.blog {
+  display: block;
+}
+
+.blog img {
+  width        : 60px;
+  height       : 60px;
+  border-radius: 50%;
+  margin-bottom: 4px;
+  /* /* margin-right : 1rem; */
+}
+
+.text-gray {
+  color: #999;
+}
+
+.footer-column {
+  display        : flex;
+  flex-direction : column;
+  flex-wrap      : wrap;
+  justify-content: space-between;
+}
+
+.footer-blog,
+.footer-touch {
+  width     : 100%;
+  text-align: center;
+}
+
+.footer-list-icon {
+  display: block;
+}
+
+.footer-list-social {
+  display: block;
+}
+
+.main-menu {
+  display: none;
+}
+
+.blog-detail p {
+  font-size: 13px;
+}
+
+.company-title {
+  padding-top: 1rem;
+}
+
+.company-title span {
+  color: #FA804C;
+}
+
+
+@media only screen and (min-width: 576px) {
+  .feature-item {
+    display       : flex;
+    align-items   : center;
+    padding       : 0.59rem;
+    /* height     : 140px; */
+    text-align    : left;
+
+  }
+
+  .feature-row {
+    flex-flow: row;
+  }
+
+  .feature-details {
+    margin-left: 2rem;
+  }
+
+  .slogan {
+    text-align: left;
+  }
+
+ 
+
+
+
+
+
+
+
+
+}
+
+
+/* .footer-half {
+  width: 100%;
+} */
+
+
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    height: 50px;
+  }
+
+  .flex-item__image {
+    order: 1
+  }
+
+  .flex-item__text {
+    order: 2
+  }
+
+  .cardImage-container img {
+    width: 280px;
+  }
+
+  .feature-item {
+    display       : flex;
+    align-items   : center;
+    padding       : 0.59rem;
+    /* height     : 140px; */
+    text-align    : left;
+
+  }
+
+  .feature-details {
+    margin-left: 2rem;
+  }
+
+  /* .footer-column {
+    flex-direction: row;
+  } */
+
+  .blog-detail p {
+    font-size: 16px;
+  }
+
+  .blog img {
+    width        : 90px;
+    height       : 60px;
+    margin-right : 1rem;
+    border-radius: 10px;
+  }
+
+
+  .footer-column {
+    display        : flex;
+    flex-wrap      : nowrap;
+    justify-content: space-between;
+  }
+
+  .footer-section {
+    padding   : 2rem;
+    background: #26292e;
+    text-align: left;
+  }
+
+  .footer-list-wrapper {
+    width     : 50%;
+    text-align: left !important;
+  }
+
+  .footer-list-icon {
+    display: flex;
+  }
+
+  .footer-list-social {
+    display: flex;
+  }
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+  .footer-half {
+    width: 50%;
+  }
+
+  .main-menu {
+    display: block;
+  }
+
+  .footer-column {
+    flex-direction: row;
+  }
+
+  .footer-blog,
+  .footer-touch {
+    width     : 50%;
+    text-align: left;
+  }
+
+  .company-title {
+    padding-top: 0rem;
+  }
+
+  .blog {
+    display: flex;
+    margin-bottom: 4px;
+
+  }
+}
