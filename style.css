@@ -4,6 +4,10 @@ header {
 
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .navbar-custom {
   background: #FFF9F4 !important;
 }
