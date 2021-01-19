@@ -101,14 +101,17 @@ body {
 }
 
 .cardImage-container {
-  background     : #E5E5E5;
-  margin         : 20px auto;
-  width          : 80%;
-  height         : 300px;
-  border-radius  : 10px;
   display        : flex;
   justify-content: center;
   align-items    : center;
+}
+
+.img-background {
+  background      : #e5e5e5;
+  /* height       : 300px; */
+  border-radius   : 15px;
+  margin-top      : 2rem;
+
 }
 
 .cardImage-container img {
@@ -116,9 +119,11 @@ body {
 }
 
 .card {
-  border       : none;
-  border-radius: 10px !important;
-  box-shadow   : rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border          : none;
+  border-radius   : 10px !important;
+  /* box-shadow   : rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  /* box-shadow   : rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow      : rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .card-text {
@@ -164,7 +169,12 @@ body {
 }
 
 .feature-items {
-  text-align: center;
+  text-align     : center;
+  /* margin-top  : 2rem; */
+  margin         : 2rem auto;
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
 }
 
 .feature-section {
@@ -172,7 +182,9 @@ body {
 }
 
 .feature-item {
-  box-shadow   : rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  /* box-shadow   : rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow   : rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   border-radius: 15px;
   padding-top  : 5rem;
 
@@ -189,7 +201,9 @@ body {
 }
 
 .feature-row {
-  flex-flow: column-reverse;
+  flex-flow  : column-reverse;
+  align-items: center;
+
 }
 
 
@@ -300,19 +314,22 @@ body {
 
 @media only screen and (min-width: 576px) {
   .feature-item {
-    display    : flex;
+    /* display    : flex;
+    justify-content: center;
     align-items: center;
     padding    : 0.59rem;
-    text-align : left;
+    text-align : left; */
 
   }
 
-  .feature-row {
-    flex-flow: row;
+  .feature-items {
+    margin-left: 2rem;
+
   }
+
 
   .feature-details {
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
   }
 
   .slogan {
@@ -345,11 +362,17 @@ body {
     padding    : 0.59rem;
     text-align : left;
 
+    width : 300px;
+    height: 200px;
+
   }
 
+
   .feature-details {
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
   }
+
+
 
   .blog-detail p {
     font-size: 16px;
@@ -421,6 +444,20 @@ body {
   .blog {
     display      : flex;
     margin-bottom: 16px;
+
+  }
+
+  .feature-item {
+    width : auto;
+    height: auto;
+  }
+
+  .feature-row {
+    flex-flow: row;
+  }
+
+  .img-background {
+    height: 300px;
 
   }
 }
